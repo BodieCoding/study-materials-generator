@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "study-materials-generator-pkg"
+version = "0.1.0"
+description = "This project aims to develop an intelligent study assistant application designed to empower high school students in their learning process.  Leveraging the power of AI, this application will transform static study materials, such as notes and quizzes (in PNG and PDF formats), into dynamic and interactive learning experiences."
+authors = ["Bodie <46969107+riddles-in-the-dark@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "study_materials_generator_pkg"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pytesseract = "^0.3.13"
+pillow = "^11.1.0"
+pypdf2 = "^3.0.1"
+sentence-transformers = "^3.4.1"
+requests = "^2.32.3"
+aiohttp = "^3.11.12"
+ollama = "^0.4.7"
+scikit-learn = "^1.6.1"
+transformers = "^4.48.3"
+nest-asyncio = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

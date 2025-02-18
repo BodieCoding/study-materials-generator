@@ -1,0 +1,10 @@
+Ollama
+pillow
+numpy
+scikit-learn
+flask
+transformers
+torch
+sentence-transformers
+PyPDF2
+python-docx
